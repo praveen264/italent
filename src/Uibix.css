@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(195, 186, 186);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.div1
+{
+    background-color: honeydew;
+   color: black;
+   width: 100%;
+   display: flex;
+}
+.div1>ul
+{
+    display: flex;
+}
+.div2
+{
+    margin-left: -228px;
+    width: 110%;
+}
+.div2>ul
+{
+    display: flex;
+    background-color: grey;
+    border: 1px solid black;
+    width: 90%;
+    height: 20%;
+    border-radius: 28px;
+}
+.div2>ul>li
+{
+    padding-left: 20px;
+    background-color: white;
+    margin-top: 7px;
+    margin-left: 38px;
+    padding-top: -4px;
+    /* padding: 0px; */
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.div3
+{
+    margin-right: -33px;
+    margin-top: -36px;
+    margin-left: 771px;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 26%;
+}
